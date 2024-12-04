@@ -6,9 +6,9 @@ Giovanna Palma - @gpalma77
 <br> 
 Katie Witcher - @katiewitcher
 <br> 
-Jack Macken-
+Jack Macken- @jackmacken
 <br> 
-Andrew Baich -
+Andrew Baich - @andrewbaich
 <br> 
 Brooke Istishin - @brookeistishin 
 <br> 
