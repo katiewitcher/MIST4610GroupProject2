@@ -1,8 +1,8 @@
 # MIST4610GroupProject2
 
-MIST 4610: Group Project 1 Information
+## MIST 4610: Group Project 2 Information
  
-Team name and members:
+# Team name and members:
 Include information about the name of the team, the names of all team members as well as links to their corresponding GitHub repos that have the project on them.
 Giovanna Palma - @gpalma77 
 Katie Witcher - @katiewitcher
@@ -13,7 +13,7 @@ Scenario description:
 Our project models a small, local coffee shop chain in Georgia, operating multiple locations under unique names, but all managed centrally with a unified menu. The owner oversees all locations using a central data center to streamline operations.
 Key entities in the database include Customer, LoyaltyProgram, Order, Employee, Coffee Shop, OrderItem, MenuItem, RecipeItem, Ingredients, Supplier, Address, and Category. These entities and their relationships allow the database to efficiently track customer visits, the details of their orders, payment methods, and the employee handling each transaction at a specific location. Additionally, the database stores information on the menu items ordered, their ingredients, and the corresponding recipes. It also manages stock levels and tracks suppliers for each ingredient, ensuring a seamless supply chain.
  
-Data Model:
+# Data Model:
 Each customer is uniquely identified and can place multiple orders over time. There is a one-to-many relationship between the Customer and Order entities, meaning that a customer can make many orders, but an order is linked to only one customer. Customers also have a one to one relationship with LoyaltyProgram, as each customer can have up to one account and each account is associated with one customer. The loyalty program keeps track of things like join date, status, points (they earn 1 point for every $ spent, and can use 100 points to redeem a free drink), and additionally their favorite menu item (as a foreign key from menu) and flavor (as a foreign key from ingredient). 
 Orders capture the details of a customer’s purchase, including the date of the order and the amount of points a customer who is in the loyalty program will gain. Each order is associated with one customer and one employee, reflecting that the order is processed by a specific employee at a given coffee shop. However, each employee can handle multiple orders, creating a one-to-many relationship between the Employee and Order entities.
 Employees are linked to a specific coffee shop location and are responsible for handling customer orders. There is a one-to-many relationship between the CoffeeShop and Employee entities, indicating that a coffee shop can have multiple employees, but each employee works at only one coffee shop. Additionally, each employee has a boss, represented by a one-to-many recursive relationship where one employee can manage several others.
@@ -28,7 +28,7 @@ coffee shops, suppliers, employees, and customers. There is a one to one relatio
  Coffee shops and suppliers as they cannot have more than one address and are not a place of residency. Employees and customers have a one to many relationship since there is a possible situation where an address can have many residents. 
 
  
-Data Model Changes from Project 1:
+# Data Model Changes from Project 1:
 Customer Table
 •	email VARCHAR(45) in the earlier model is now updated to VARCHAR(100) for better compatibility with longer email addresses.
 Order Table
@@ -50,7 +50,7 @@ Address Management
 
 
 
-Data Dictionary:
+# Data Dictionary:
   
 
  
@@ -86,7 +86,7 @@ Data Dictionary:
 
 
 
-Five Queries:
+# Five Queries:
 
 Query 1 
 This query returns the 5 lowest stock quantities of ingredients and in which restaurant the low stock occurs. In addition, the query highlights the number of recipes the low ingredient is used in the restaurant. A left join is used to show if the quantity of the items on the menu is zero, then we do not need to restock. This query is helpful because we want to prioritize which of our ingredients we need to restock based on how often they are used.
@@ -138,7 +138,7 @@ This query shows the total revenue for each month in 2023. For managers, this in
 
 
 
-Tableau Visualizations
+# Tableau Visualizations
 
 #1 
  
@@ -168,9 +168,7 @@ This visualization breaks down the total revenue from each store. With this visu
 
 The dashboard above showcases all the visuals together to create a hub for analysis and effective conclusions. In addition to the bar graphs, in the top right corner, there is a line graph that  highlights the quantity of orders each coffee shop has had from 2020-2019. The graph provides a visual for an important metric in the restaurant industry- how many orders are being placed at each location. With this visual, trends are easily identifiable to illuminate which stores are increasing order volume and which are not. For example, Brooke’s Beanery has been steadily increasing order volume, while Witcher Brew has been struggling. With this data, conclusions can be drawn about shop performance and future expenditures. Management must determine what factors have led to Witcher Brew’s performance decline and how they can be fixed. 
 
-Database information:
+# Database information:
 Name of database: cs_gcp90285
 
 Additional information: Each Each query listed above is marked in the database using stored procedures which can be called using the following format: CALL Q1();
-
-![image](https://github.com/user-attachments/assets/e2202577-8edd-41ff-8b66-a58f4044355b)
