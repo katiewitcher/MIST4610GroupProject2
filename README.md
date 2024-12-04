@@ -103,15 +103,15 @@ This query returns the 5 lowest stock quantities of ingredients and in which res
  <br> 
 
 Query 2 (most popular menu items ordered together)
-Can see market trends of popular menu items
-Can allow the creation of discounted pairings that will be ordered
-Can help the creation of new menu items based on the relationship of the food ordered together
+Query 2 returns which popular menu items are ordered together. In addition, the query highlights how many times each pair was purchased together and their combined revenue. This query provides valuable insights because management can see market trends of popular menu items bought together, open the door to sales incentives and potential new menu items based on the relationship of the food ordered together.
+
  ![image](https://github.com/user-attachments/assets/9541c06d-fe8a-492b-8dda-5536469ef492)
  
 
  <br> 
 
-Query 3 (this query shows the top 10 customers who are gold reward members and how much revenue they have brought to the business) can be used to compare if they spend more than customers who are not rewards member, etc.
+Query 3 (this query shows the top 10 customers who are gold reward members and how much revenue they have brought to the business) This query shows the top 10 customers who are gold reward members and how much revenue they have brought to the business. It is an important metric for management because it can be used to compare if they spend more than the customers who are not rewards members. Tracking the revenue of specific customer groups is important to see what markets are thriving and what must be improved, yielding more efficient marketing efforts and higher revenues.
+
  
   ![image](https://github.com/user-attachments/assets/65d85cd2-4306-44be-be6f-b816bf4b6135)
 
