@@ -10,7 +10,7 @@ Katie Witcher - @katiewitcher
 <br> 
 Jack Macken- [@jackmacken](https://github.com/jackmacken/4610Project/edit/main/README.md#:~:text=/-,4610Project,-Type)
 <br> 
-Andrew Baich - @andrewbaich
+Andrew Baich - @andrewbaich https://github.com/AndrewBaich/MIST-4610-Group-7-Project-2/tree/main
 <br> 
 Brooke Istishin -[ @brookeistishin ](https://github.com/brookeistishin)
 
