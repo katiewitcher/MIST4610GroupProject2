@@ -2,8 +2,9 @@
  
 ## Team name and members:
 <br> 
-Giovanna Palma - [@gpalma77 ](https://github.com/gpalma77/MIST-4610-Project-2/blob/main/README.md
+Giovanna Palma - [@gpalma77](https://github.com/gpalma77/MIST-4610-Project-2/blob/main/README.md
 )
+
 <br> 
 Katie Witcher - @katiewitcher
 <br> 
@@ -11,8 +12,8 @@ Jack Macken- @jackmacken
 <br> 
 Andrew Baich - @andrewbaich
 <br> 
-Brooke Istishin -[ @brookeistishin ](https://github.com/brookeistishin
-)
+Brooke Istishin -[ @brookeistishin ](https://github.com/brookeistishin)
+
 <br> 
 <br> 
 Scenario description:
