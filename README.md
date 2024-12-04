@@ -39,22 +39,22 @@ coffee shops, suppliers, employees, and customers. There is a one to one relatio
 
 ## Data Model Changes from Project 1:
 <br>  Customer Table
-•	email VARCHAR(45) in the earlier model is now updated to VARCHAR(100) for better compatibility with longer email addresses.
+<br> •	email VARCHAR(45) in the earlier model is now updated to VARCHAR(100) for better compatibility with longer email addresses.
 <br>  Order Table
-•	Added a Points field (INT) to track points associated with orders.
-•	Changed totalAmount to DECIMAL(5,2) for precision in financial data.
+<br> •	Added a Points field (INT) to track points associated with orders.
+<br> •	Changed totalAmount to DECIMAL(5,2) for precision in financial data.
 <br>  Employee Table
-•	Salary is now appropriately scaled (DECIMAL(6,2)).
+<br> •	Salary is now appropriately scaled (DECIMAL(6,2)).
 Ingredients Table
-•	stockQty was changed from INT to DECIMAL(10,2) to account for fractional quantities (e.g., partial kilograms or liters).
+<br> •	stockQty was changed from INT to DECIMAL(10,2) to account for fractional quantities (e.g., partial kilograms or liters).
 <br>  LoyaltyProgram Table
-•	The earlier model does not include the LoyaltyProgram table in the diagram. In the revised model, it tracks Customer_idCustomer, joinDate, Status, and Points.
-•	Loyalty program is identified by a customer id. It is optional for customers to be enrolled in the program. They earn points on each dollar of each order they make, and can pay with 100 points for 1 drink.
+<br> •	The earlier model does not include the LoyaltyProgram table in the diagram. In the revised model, it tracks Customer_idCustomer, joinDate, Status, and Points.
+<br> •	Loyalty program is identified by a customer id. It is optional for customers to be enrolled in the program. They earn points on each dollar of each order they make, and can pay with 100 points for 1 drink.
 <br>  RecipeItem Table
-•	IngredientAmount is (DECIMAL(5,2))
+<br> •	IngredientAmount is (DECIMAL(5,2))
 <br>  Address Management
-•	New aggregate entity that tracks addresses.
-•	In the earlier model, addresses were directly linked to entities like Customer, CoffeeShop, and Supplier. 
+<br> •	New aggregate entity that tracks addresses.
+<br> •	In the earlier model, addresses were directly linked to entities like Customer, CoffeeShop, and Supplier. 
 
 <br> 
 
