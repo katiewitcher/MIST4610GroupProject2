@@ -97,7 +97,8 @@ Ingredients Table
 <br> 
 Query 1 
 This query returns the 5 lowest stock quantities of ingredients and in which restaurant the low stock occurs. In addition, the query highlights the number of recipes the low ingredient is used in the restaurant. A left join is used to show if the quantity of the items on the menu is zero, then we do not need to restock. This query is helpful because we want to prioritize which of our ingredients we need to restock based on how often they are used.
- ![image](https://github.com/user-attachments/assets/6fd09de4-7f8a-4db3-90a2-f18716d77268)
+ 
+ ![image](https://github.com/user-attachments/assets/262247cd-b9d8-4da2-b7e5-7bae3374b1b0)
 
  <br> 
 
@@ -106,11 +107,12 @@ Can see market trends of popular menu items
 Can allow the creation of discounted pairings that will be ordered
 Can help the creation of new menu items based on the relationship of the food ordered together
  ![image](https://github.com/user-attachments/assets/9541c06d-fe8a-492b-8dda-5536469ef492)
+ 
 
  <br> 
 
 Query 3 (this query shows the top 10 customers who are gold reward members and how much revenue they have brought to the business) can be used to compare if they spend more than customers who are not rewards member, etc.
-  
+ 
   ![image](https://github.com/user-attachments/assets/65d85cd2-4306-44be-be6f-b816bf4b6135)
 
 <br> 
@@ -159,9 +161,9 @@ This query shows the total revenue for each month in 2023. For managers, this in
 ## Tableau Visualizations
 <br> 
 #1 
+
   ![image](https://github.com/user-attachments/assets/335a987d-1f60-4d79-ada7-4d0e32d4e883)
-
-
+  
 This visual showcases the most commonly ordered flavors among loyalty customers. The x-axis is the name of the flavor, and the y-axis is the number of times the flavor is ordered by Loyalty Customers. This visualisation is important for management because any customer information can improve inventory and marketing efforts. Incentives can be put in place that reward Loyalty Customers with top flavors, and stores should put extra emphasis to have plenty of these flavors in stock. In addition, the sample size of Loyalty Customers is a good sample for the population of all customers, further adding value via customer data. 
 <br> 
 #2
@@ -179,7 +181,6 @@ This visualization breaks down the total revenue from each store. With this visu
 
 
 <br> 
-
 
 
 
